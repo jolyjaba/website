@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .card.first,
+        .card {
+            border: 2px solid cyan;
+            padding: 3px;
+            margin-bottom: 5px;
+            display: flex;
+            width: 480px;
+        }
+
+        .desc {
+            margin-bottom: 40px;
+        }
+
+        .info {
+            margin-left: 10px;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        @media only screen and (max-width: 720px) {
+
+            .card.first,
+            .card {
+                border: 2px solid cyan;
+                padding: 3px;
+                margin-bottom: 5px;
+                width: 480px;
+            }
+
+            .info {
+                width: 100%;
+                font-size: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .desc {
+                display: none;
+            }
+
+            img {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card first">
+        <img src="http://via.placeholder.com/100x100" />
+        <section class="info">
+            <a href="#">Mercedes C100</a>
+            <div class="desc">В хорошем состоянии</div>
+            <div class="price">10.000$</div>
+        </section>
+    </div>
+    <div class="card">
+        <img src="http://via.placeholder.com/100x100" />
+        <section class="info">
+            <a href="#">BMW X5</a>
+            <div class="desc">В хорошем состоянии</div>
+            <div class="price">10.000$</div>
+        </section>
+    </div>
+    <div class="card">
+        <img src="http://via.placeholder.com/100x100" />
+        <section class="info">
+            <a href="#">Audi A8</a>
+            <div class="desc">В хорошем состоянии</div>
+            <div class="price">10.000$</div>
+        </section>
+    </div>
+</body>
+
+</html>
