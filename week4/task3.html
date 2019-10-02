@@ -2,6 +2,9 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
         * {
             padding: 0;
@@ -32,14 +35,9 @@
             margin: 20% 33% 20% 33%;
         }
 
-        .alert h1 {
-            margin-top: 20px;
-        }
-
+        .alert h1,
         .alert p {
-            margin-left: 30px;
             margin-top: 20px;
-            text-align: start;
         }
 
         .card.first,
@@ -120,6 +118,9 @@
         </div>
     </div>
     <script>
+        function on() {
+            document.querySelector(".overlay").style.display = "block";
+        }
         function off() {
             document.querySelector(".overlay").style.display = "none";
         }
@@ -137,14 +138,16 @@
             <img src="http://via.placeholder.com/150x150" />
             <div class="price">10.000 $</div>
             <div class="title">BMW X6</div>
-            <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
+            <a href="#"><img width="30px" class="icon" onclick="on()"
+                    src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
         </div>
 
         <div class="card">
             <img src="http://via.placeholder.com/150x150" />
             <div class="price">10.000 $</div>
             <div class="title">Mercedes C100</div>
-            <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
+            <a href="#"><img width="30px" class="icon" onclick="on()"
+                    src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
         </div>
 
 
@@ -152,28 +155,32 @@
             <img src="http://via.placeholder.com/150x150" />
             <div class="price">10.000 $</div>
             <div class="title">BMW X5</div>
-            <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
+            <a href="#"><img width="30px" class="icon" onclick="on()"
+                    src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
         </div>
 
         <div class="card">
             <img src="http://via.placeholder.com/150x150" />
             <div class="price">10.000 $</div>
             <div class="title">Mitsibushi Outlander</div>
-            <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
+            <a href="#"><img width="30px" class="icon" onclick="on()"
+                    src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
         </div>
 
         <div class="card">
             <img src="http://via.placeholder.com/150x150" />
             <div class="price">10.000 $</div>
             <div class="title">Audi A8</div>
-            <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
+            <a href="#"><img width="30px" class="icon" onclick="on()"
+                    src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
         </div>
 
         <div class="card">
             <img src="http://via.placeholder.com/150x150" />
             <div class="price">10.000 $</div>
             <div class="title">BMW X6</div>
-            <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
+            <a href="#"><img width="30px" class="icon" onclick="on()"
+                    src="https://image.flaticon.com/icons/png/512/2/2772.png" /></a>
         </div>
     </section>
 </body>
