@@ -2,10 +2,10 @@ function add() {
     document.querySelector("#name").style.removeProperty("border");
     document.querySelector("#surname").style.removeProperty("border");
     document.querySelector("#faculty").style.removeProperty("border");
-    let table = document.querySelector("#students");
-    let name = document.querySelector("#name").value;
-    let surname = document.querySelector("#surname").value;
-    let faculty = document.querySelector("#faculty").value;
+    let table = document.querySelector("#students"),
+        name = document.querySelector("#name").value,
+        surname = document.querySelector("#surname").value,
+        faculty = document.querySelector("#faculty").value;
     if (name != "" && surname != "" && faculty != -1) {
         let newRow = table.insertRow();
         newRow.insertCell(0).innerHTML = name;
