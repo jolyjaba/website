@@ -10,8 +10,7 @@ function add() {
         let newRow = table.insertRow();
         newRow.insertCell(0).innerHTML = name;
         newRow.insertCell(1).innerHTML = surname;
-        let newRow2 = newRow.insertCell(2);
-        newRow2.style.fontWeight = "bold";
+        let newRow2 = newRow.insertCell(2).style.fontWeight = "bold";
         newRow2.innerHTML = faculty;
     } else {
         document.querySelector("#name").style.border = (name == "") ? "thick solid red" : "";
