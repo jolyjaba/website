@@ -1,0 +1,72 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#matrix {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+#matrix input {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    font-size: 40px;
+    border-color: black;
+    border-width: 0.1px;
+}
+
+#determinant {
+    margin-top: 20px;
+    font-size: 24px;
+    font-variant-caps: all-petite-caps;
+    border-left: 3px solid red;
+    border-bottom: none;
+    border-right: none;
+    background-color: white;
+    bottom: 250px;
+}
+
+#task {
+    font-variant-caps: petite-caps;
+}
+
+#calculate {
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+#res {
+    font-size: 48px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+#defenition {
+    opacity: 0.5;
+    margin-bottom: 5px;
+}
+
+#result {
+    position: absolute;
+    left: 600px;
+    right: 50px;
+    top: 200px;
+}
+
+#Result {
+    background-color: darkgrey;
+    border: solid darkgrey;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+#content {
+    opacity: 0.75;
+}
