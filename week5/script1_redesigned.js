@@ -1,13 +1,13 @@
 function determine() {
-    let s11 = Number(document.getElementById("s11").value),
-        s12 = Number(document.getElementById("s12").value),
-        s13 = Number(document.getElementById("s13").value),
-        s21 = Number(document.getElementById("s21").value),
-        s22 = Number(document.getElementById("s22").value),
-        s23 = Number(document.getElementById("s23").value),
-        s31 = Number(document.getElementById("s31").value),
-        s32 = Number(document.getElementById("s32").value),
-        s33 = Number(document.getElementById("s33").value);
+    let s11 = document.getElementById("s11").value,
+        s12 = document.getElementById("s12").value,
+        s13 = document.getElementById("s13").value,
+        s21 = document.getElementById("s21").value,
+        s22 = document.getElementById("s22").value,
+        s23 = document.getElementById("s23").value,
+        s31 = document.getElementById("s31").value,
+        s32 = document.getElementById("s32").value,
+        s33 = document.getElementById("s33").value;
     document.querySelector("#first").innerHTML = s11;
     document.querySelector("#second").innerHTML = s12;
     document.querySelector("#third").innerHTML = s13;

@@ -40,7 +40,7 @@
     opacity: 0.5;
 }
 
-div.res {
+#res1 {
     font-size: 48px;
     color: red;
     margin-bottom: 20px;
@@ -74,4 +74,9 @@ div.res {
 
 #solution {
     margin-bottom: 30px;
+}
+
+#matrix,
+#determinant {
+    margin-left: 250px;
 }
