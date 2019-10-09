@@ -40,7 +40,7 @@
     opacity: 0.5;
 }
 
-#res {
+div.res {
     font-size: 48px;
     color: red;
     margin-bottom: 20px;
@@ -67,6 +67,11 @@
     width: 50px;
     margin-bottom: 20px;
 }
+
 #content {
     opacity: 0.75;
+}
+
+#solution {
+    margin-bottom: 30px;
 }
