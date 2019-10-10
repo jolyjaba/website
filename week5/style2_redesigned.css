@@ -1,24 +1,31 @@
 #carousel img {
-    width: 100px;
-    height: 50px;
+    height: 100px;
     border: 1px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 15px 7.5px;
+    transition: 0.3ms;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+#carousel img:hover {
+    opacity: 0.7;
 }
 
 #carousel {
-    width: 600px;
+    width: 650px;
+    overflow: auto;
     border: 1px solid black;
     border-left: 4px solid red;
     display: flex;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    justify-content: space-evenly;
+    transform: translate(75px, 0px);
+    background-color: white;
 }
 
 #bigImage img {
-    width: 500px;
-    height: 300px;
+    height: 500px;
+    transform: translate(100px, 150px);
+    box-shadow: 0px 20px 40px -10px rgba(0, 0, 0, 0.5);
 }
 
 #right_side {
@@ -28,7 +35,9 @@
     position: absolute;
     left: 800px;
     right: 250px;
-    top: 200px;
+    top: 100px;
+    height: 600px;
+    background-image: linear-gradient(to bottom right, rgb(80, 80, 80), rgb(30, 30, 30));
 }
 
 #title,
@@ -36,20 +45,56 @@
 #button {
     padding: 10px 40px 10px 40px;
     opacity: 0.75;
+    transform: translateY(50%);
 }
 
 #button {
-    justify-content: center;
+    justify-content: right;
     display: flex;
-    margin: 0px 100px 0px 100px;
+    border: 1px solid white;
+    width: 180px;
+    transform: translate(15%, 250%);
 }
 
 #title {
     font-size: 40px;
     position: relative;
     right: 100px;
+    color: whitesmoke;
+    width: 400px;
 }
 
 #text {
-    margin-right: 10px;
+    width: 150px;
+    font-size: 20px;
+    transform: translate(-15px, 0px);
 }
+
+#direction {
+    transform: translate(40px, 0px);
+}
+
+.previous,
+.next {
+    color: grey;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 10px 16px;
+    border: 1px solid red;
+    background-color: whitesmoke;
+}
+
+.previous {
+    z-index: 1;
+    position: absolute;
+    bottom: 190px;
+    left: 100px;
+}
+
+.next {
+    z-index: 1;
+    position: absolute;
+    bottom: 190px;
+    left: 675px;
+}
+
