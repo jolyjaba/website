@@ -1,0 +1,55 @@
+#carousel img {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#carousel {
+    width: 600px;
+    border: 1px solid black;
+    border-left: 4px solid red;
+    display: flex;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    justify-content: space-evenly;
+}
+
+#bigImage img {
+    width: 500px;
+    height: 300px;
+}
+
+#right_side {
+    background-color: rgb(70, 69, 69);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 800px;
+    right: 250px;
+    top: 200px;
+}
+
+#title,
+#description,
+#button {
+    padding: 10px 40px 10px 40px;
+    opacity: 0.75;
+}
+
+#button {
+    justify-content: center;
+    display: flex;
+    margin: 0px 100px 0px 100px;
+}
+
+#title {
+    font-size: 40px;
+    position: relative;
+    right: 100px;
+}
+
+#text {
+    margin-right: 10px;
+}

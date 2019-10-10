@@ -33,11 +33,13 @@
 
 #task {
     font-variant-caps: petite-caps;
+    margin-left: 210px;
 }
 
 #calculate {
     font-size: 40px;
     opacity: 0.5;
+    margin-left: 200px;
 }
 
 #res1 {
@@ -59,8 +61,8 @@
 }
 
 #Result {
-    background-color: darkgrey;
-    border: solid darkgrey;
+    background-color: rgb(50, 50, 50);
+    border: solid rgb(50, 50, 50);
     border-radius: 5px;
     color: white;
     padding: 5px;
@@ -80,3 +82,8 @@
 #determinant {
     margin-left: 250px;
 }
+
+#matrix {
+    margin-top: 80px;
+}
+
