@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.59" height="39.747" viewBox="0 0 47.59 39.747">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #8954ba;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Home-Icon" transform="translate(1.295 0.675)">
+    <path id="Shape" class="cls-1" d="M18,38.571h9v0H38.25V20.42H45L22.5,0,0,20.42H6.75V38.571Z"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg id="product-tour-icon" xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #767676;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-linecap: square;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect id="product-tour-icon_background" data-name="product-tour-icon background" class="cls-1" width="26" height="23.524"/>
+  <g id="Help" transform="translate(1.238 1.158)">
+    <path id="Triangle_Copy" data-name="Triangle Copy" class="cls-2" d="M14.712,6.6a2.768,2.768,0,0,1,0,4.841L2.964,18.224A1.959,1.959,0,0,1,0,16.61V1.44A1.959,1.959,0,0,1,2.964-.173Z" transform="translate(0 0.445)"/>
+    <path id="Line_3" data-name="Line 3" class="cls-3" d="M1.5.5V4.264" transform="translate(22.643 10.104)"/>
+    <path id="Path_6" data-name="Path 6" class="cls-4" d="M4.393,0a31.076,31.076,0,0,1,9.083,1.824c4.1,1.231,6.218,2.227,6.218,4.348,0,7.106-10.424,13.92-15.3,8.312C2.7,12.532-2.241,9.513,1.18,3.175Z" transform="translate(2.919 7.29)"/>
+    <path id="Line_7" data-name="Line 7" class="cls-3" d="M1.5.5V3.323" transform="translate(6.548 13.868)"/>
+    <path id="Line_5" data-name="Line 5" class="cls-3" d="M.5,1.5H16.6" transform="translate(7.548 9.104)"/>
+    <path id="Line_5-2" data-name="Line 5" class="cls-3" d="M.5,1.5H16.6" transform="translate(7.548 12.868)"/>
+    <path id="Line_8" data-name="Line 8" class="cls-3" d="M1.5.5v.941" transform="translate(6.548 19.514)"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.207" height="22.207" viewBox="0 0 22.207 22.207">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #979797;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-linecap: square;
+      }
+    </style>
+  </defs>
+  <g id="Search-Icon" transform="translate(0.5 0.5)">
+    <circle id="Oval_3" data-name="Oval 3" class="cls-1" cx="9" cy="9" r="9"/>
+    <path id="Line_4" data-name="Line 4" class="cls-2" d="M0,0,5,5" transform="translate(16 16)"/>
+  </g>
+</svg>

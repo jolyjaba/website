@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 95px;
+    box-shadow: 1px 1px 20px rgb(240, 240, 240);
+}
+
+#search {
+    position: relative;
+    border: 1px solid #F7F7F7;
+    border-radius: 5px;
+    transform: translateY(26px);
+    height: 45px;
+    width: 444px;
+    margin-left: 40%;
+    display: flex;
+}
+
+#search input {
+    position: absolute;
+    left: 52px;
+    top: 11.5px;
+    width: 276px;
+    height: 22px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+
+#search_icon {
+    width: 21px;
+    height: 21px;
+    transform: translate(14px, 11.5px);
+    cursor: pointer;
+}
+
+header img {
+    width: 229px;
+    height: 75px;
+    transform: translate(9px, 11px);
+}
+
+#user_notification {
+    width: 198.5px;
+}
+
+#bell {
+    width: 26px;
+    height: 31px;
+    transform: translate(35.5px, 2.5px);
+}
+
+#user_pic {
+    transform: translate(80px, 17.5px);
+    width: 60px;
+    height: 60px;
+}
+
+#home {
+    border-right: 1px solid rgb(240, 240, 240);
+    position: relative;
+    width: 123px;
+    display: flex;
+}
+
+#home_icon {
+    width: 45px;
+    height: 38.5px;
+    margin-top: 188px;
+    margin-left: 39px;
+    border-right: 4px solid #8954BA;
+    padding-right: 39.5px;
+}
+
+#product_icon {
+    position: absolute;
+    width: 26px;
+    height: 25px;
+    left: 49px;
+    bottom: 45.5px;
+}
+
+main {
+    display: flex;
+}
+
+#main_block {
+    width: 100%;
+}
+
+#navigation {
+    display: flex;
+    width: 100%;
+    height: 127px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    position: relative;
+}
+
+#navigation img {
+    cursor: pointer;
+    width: 56px;
+    height: 14px;
+    transform: translate(43px, 31.5px);
+}
+
+#navigation_top_line div {
+    color: rgb(180, 180, 180);
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+#navigation_top_line {
+    display: flex;
+    width: 320px;
+    height: 14px;
+    transform: translate(50px, 29px);
+}
+
+#Home,
+#Admin,
+#User_management {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#navigation_bottom_line {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding-left: 79px;
+    padding-bottom: 15.5px;
+}
+
+.buttons {
+    height: 15px;
+    margin-right: 105px;
+    color: #686868;
+    font-family: Helvetica;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#other_button {
+    transform: translateY(-35px);
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #686868;
+    width: 24px;
+    height: 6px;
+    cursor: pointer;
+}
+
+#main_dashboard {
+    position: relative;
+    height: 100vh;
+}
+
+#dashboard_users {
+    width: 140px;
+    height: 18px;
+    font-family: Helvetica;
+    color: #686868;
+    transform: translate(43px, 68px);
+}
+
+#add_button {
+    position: absolute;
+    right: 55px;
+    top: 54.5px;
+    cursor: pointer;
+}
+
+#table {
+    margin-left: 43px;
+    margin-right: 55px;
+    margin-top: 134.5px;
+    height: 50%;
+    overflow: scroll;
+}
+
+#users_count {
+    width: 48px;
+    height: 14px;
+    font-size: 13px;
+    color: #686868;
+    font-family: Helvetica;
+    transform: translate(55px, 75px);
+}
+
+.row {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: #686868;
+    font-family: Helvetica;
+    height: 62px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.row span {
+    
+}
+
+#table {
+    border-collapse: collapse;
+}
+
+.row div:first-child img {
+    cursor: pointer;
+}
+
+
+.row div:last-child img {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.view {
+    width: 24px;
+    height: 14px;
+}
+
+.delete {
+    width: 17px;
+    height: 20px;
+}
+
+.edit {
+    width: 20.32px;
+    height: 20.32px;
+    margin-right: 20px;
+}
+
+#rectangle {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+}

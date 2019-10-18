@@ -2,7 +2,7 @@ let currentImageIndex = 1;
 function showSlides(n) {
     currentImageIndex = n;
     let image = document.querySelector("#i"+currentImageIndex);
-    document.querySelector("#bigImage img").src = image.src;
+    document.querySelector("#bigImage img").src = image.src;x
 }
 function next() {
     currentImageIndex++;

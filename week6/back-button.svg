@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="14" viewBox="0 0 57 14">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 14px;
+        font-family: Helvetica;
+        opacity: 0.4;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke: #979797;
+        stroke-linecap: square;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: #979797;
+      }
+    </style>
+  </defs>
+  <g id="back-button" transform="translate(0 -4)">
+    <text id="Back" class="cls-1" transform="translate(25 15)"><tspan x="0" y="0">Back</tspan></text>
+    <g id="Triangle_2" data-name="Triangle 2" class="cls-2" transform="translate(0 5)">
+      <path class="cls-4" d="M0,4.5,5.25,0V9Z"/>
+      <path class="cls-5" d="M 4.25 2.174222946166992 L 1.536593437194824 4.5 L 4.25 6.825777053833008 L 4.25 2.174222946166992 M 5.25 0 L 5.25 9 L 0 4.5 L 5.25 0 Z"/>
+    </g>
+    <path id="Line_5" data-name="Line 5" class="cls-3" d="M.5,1.5h12" transform="translate(5 8)"/>
+  </g>
+</svg>

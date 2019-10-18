@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="Image 1-image.png" alt="Image">
+        <div id="search">
+            <img id="search_icon" src="Search-Icon.svg" alt="Search-Icon">
+            <input type="text" placeholder="Search e.g. live instagram channel">
+        </div>
+        <div id="user_notification">
+            <img id="bell" src="bell.svg" alt="Group">
+            <img id="user_pic" src="User-Pic.svg" alt="User-Pic">
+        </div>
+    </header>
+    <main>
+        <div id="home">
+            <img id="home_icon" src="Home-Icon.svg" alt="Home-Icon">
+            <img id="product_icon" src="product-tour-icon.svg" alt="Product-Icon">
+        </div>
+        <div id="main_block">
+            <div id="navigation">
+                <img src="back-button.svg" alt="back-button">
+                <div id="navigation_top_line">
+                    <div id="Home">Home</div>
+                    <div>/</div>
+                    <div id="Admin">Admin</div>
+                    <div>/</div>
+                    <div id="User_management">User
+                        Managements</div>
+                </div>
+                <div id="navigation_bottom_line">
+                    <div class="buttons">Users</div>
+                    <div class="buttons">Reports</div>
+                    <div class="buttons">Requests</div>
+                    <div class="buttons">Disabled Users</div>
+                    <div id="other_button">...</div>
+                </div>
+            </div>
+            <div id="main_dashboard">
+                <div id="dashboard_users">Dashboard Users</div>
+                <img id="add_button" src="Button.svg" alt="Add_Button">
+                <div id="table">
+                    <div class="row">
+                        <div><img onmouseover="hover(this)" onmouseout="hover(this)" onclick="mark(this)" id="rectangle"
+                                src="unmarked.svg" alt="Rectangle"><span>Account Status</span></div>
+                        <div>User Name</div>
+                        <div>Email</div>
+                        <div>Account type</div>
+                        <div>Phone</div>
+                        <div>Mode</div>
+                        <div>Actions</div>
+                    </div>
+                    <div class="row">
+                        <div><img onmouseover="hover(this)" onmouseout="hover(this)" onclick="mark(this)" id="rectangle"
+                                src="unmarked.svg" alt="Rectangle"><span>Active</span></div>
+                        <div>Hello</div>
+                        <div>Hello</div>
+                        <div>Hello</div>
+                        <div></div>
+                        <div></div>
+                        <div>
+                            <img class="view" src="view-image.png" alt="view">
+                            <img class="delete" src="Delete-Icon.svg" alt="Delete-Icon">
+                            <img class="edit" src="Edit-Icon.svg" alt="Edit-Icon">
+                        </div>
+                    </div>
+                </div>
+                <div id="users_count">8 Users</div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
