@@ -28,14 +28,16 @@
         </div>
         <div id="main_block">
             <div id="navigation">
-                <img src="back-button.svg" alt="back-button">
-                <div id="navigation_top_line">
-                    <div id="Home">Home</div>
-                    <div>/</div>
-                    <div id="Admin">Admin</div>
-                    <div>/</div>
-                    <div id="User_management">User
-                        Managements</div>
+                <div id="top_line">
+                    <img src="back-button.svg" alt="back-button">
+                    <div id="navigation_top_line">
+                        <div id="Home">Home</div>
+                        <div>/</div>
+                        <div id="Admin">Admin</div>
+                        <div>/</div>
+                        <div id="User_management">User
+                            Managements</div>
+                    </div>
                 </div>
                 <div id="navigation_bottom_line">
                     <div class="buttons">Users</div>
@@ -47,32 +49,39 @@
             </div>
             <div id="main_dashboard">
                 <div id="dashboard_users">Dashboard Users</div>
-                <img id="add_button" src="Button.svg" alt="Add_Button">
-                <div id="table">
-                    <div class="row">
-                        <div><img onmouseover="hover(this)" onmouseout="hover(this)" onclick="mark(this)" id="rectangle"
-                                src="unmarked.svg" alt="Rectangle"><span>Account Status</span></div>
-                        <div>User Name</div>
-                        <div>Email</div>
-                        <div>Account type</div>
-                        <div>Phone</div>
-                        <div>Mode</div>
-                        <div>Actions</div>
-                    </div>
-                    <div class="row">
-                        <div><img onmouseover="hover(this)" onmouseout="hover(this)" onclick="mark(this)" id="rectangle"
-                                src="unmarked.svg" alt="Rectangle"><span>Active</span></div>
-                        <div>Hello</div>
-                        <div>Hello</div>
-                        <div>Hello</div>
-                        <div></div>
-                        <div></div>
-                        <div>
-                            <img class="view" src="view-image.png" alt="view">
-                            <img class="delete" src="Delete-Icon.svg" alt="Delete-Icon">
-                            <img class="edit" src="Edit-Icon.svg" alt="Edit-Icon">
-                        </div>
-                    </div>
+                <img onclick="add()" id="add_button" src="Button.svg" alt="Add_Button">
+                <div id="table_block">
+                    <table id="DashBoard">
+                        <thead>
+                            <tr>
+                                <td><img onmouseover="mOver(this)" onmouseout="mOut(this)" onclick="markAll()"
+                                        id="rectangle" src="unmarked.svg" alt="Rectangle"><span>Account Status</span>
+                                </td>
+                                <td>User Name</td>
+                                <td>Email</td>
+                                <td>Account type</td>
+                                <td>Phone</td>
+                                <td>Mode</td>
+                                <td>Actions</td>
+                            </tr>
+                        </thead>
+                        <tbody id="dataTable">
+                            <tr>
+                                <td><img onmouseover="mOver(this)" onmouseout="mOut(this)" onclick="mark(this)"
+                                        id="rectangle" src="unmarked.svg" alt="Rectangle"><span>Active</span></td>
+                                <td>Hello</td>
+                                <td>Hello</td>
+                                <td>Hello</td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <img class="view" src="view-image.png" alt="view">
+                                    <img class="delete" src="Delete-Icon.svg" alt="Delete-Icon">
+                                    <img class="edit" src="Edit-Icon.svg" alt="Edit-Icon">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div id="users_count">8 Users</div>
             </div>
