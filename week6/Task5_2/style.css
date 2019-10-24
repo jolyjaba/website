@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 900px;
+    display: flex;
+    width: 100%;
+}
+
+#left_side {
+    height: 900px;
+    width: 33.33333%;
+    background: white;
+}
+
+#rigth_side {
+    height: 900px;
+    width: 66.66666%;
+    background: #F6F7FA;
+    padding: 40px;
+}
+
+#frame {
+    
+}

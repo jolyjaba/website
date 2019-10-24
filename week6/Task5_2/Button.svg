@@ -1,0 +1,17 @@
+<svg id="Button" xmlns="http://www.w3.org/2000/svg" width="501.5" height="42" viewBox="0 0 501.5 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5d38db;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 14px;
+        font-family: Helvetica;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-1" width="501.5" height="42" rx="2"/>
+  <text id="Send" class="cls-2" transform="translate(251.225 27)"><tspan x="-72.375" y="0">Add object to the frame</tspan></text>
+</svg>

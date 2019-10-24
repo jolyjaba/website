@@ -1,0 +1,17 @@
+<svg id="Button" xmlns="http://www.w3.org/2000/svg" width="149.344" height="31.052" viewBox="0 0 149.344 31.052">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5d38db;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 9px;
+        font-family: Helvetica;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-1" width="149.344" height="31.052" rx="2"/>
+  <text id="View" class="cls-2" transform="translate(71.385 19.133)"><tspan x="-17.506" y="0">DELETE</tspan></text>
+</svg>

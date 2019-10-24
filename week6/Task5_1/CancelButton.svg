@@ -1,0 +1,29 @@
+<svg id="Button" xmlns="http://www.w3.org/2000/svg" width="149.036" height="31.052" viewBox="0 0 149.036 31.052">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #979797;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #686868;
+        font-size: 9px;
+        font-family: Helvetica;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_19" data-name="Rectangle 19" class="cls-1">
+    <rect class="cls-3" width="149.036" height="31.052" rx="2"/>
+    <rect class="cls-4" x="0.5" y="0.5" width="148.036" height="30.052" rx="1.5"/>
+  </g>
+  <text id="Create_New" data-name="Create New" class="cls-2" transform="translate(72.339 19.133)"><tspan x="-18.255" y="0">CANCEL</tspan></text>
+</svg>
