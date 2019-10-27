@@ -1,4 +1,4 @@
-function mark() {
+window.onclick = function () {
     for (let button of document.getElementsByTagName("button")) {
         button.onclick = function () {
             let span = this.parentElement.getElementsByTagName("span")[0];
@@ -6,4 +6,3 @@ function mark() {
         }
     }
 }
-mark();

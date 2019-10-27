@@ -8,7 +8,7 @@ let cities_by_country = {
 let selectCountries = document.getElementById("countries");
 let selectCities = document.getElementById("cities");
 
-function show() {
+window.onload = function () {
     for (let country of countries) {
         let countryOption = document.createElement("option");
         countryOption.innerHTML = country;
@@ -23,4 +23,3 @@ function show() {
         }
     }
 }
-show();

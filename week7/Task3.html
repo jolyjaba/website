@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #cars {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            position: relative;
+            width: 100px;
+            margin: 5px;
+        }
+
+        .card .basket {
+            background-color: white;
+            position: absolute;
+            right: 0px;
+            top: 5px;
+            z-index: 9;
+        }
+
+        #insideBasket {
+            border: 1px solid red;
+            text-align: center;
+        }
+    </style>
+    <script src="script3.js" defer></script>
+</head>
+
+<body>
+    <div id="insideBasket"><span id="items">0</span> items, total: <span id="sum">0</span>$</div>
+    <div id="cars">
+        <!-- <div class="card">
+            <img class="card"
+                src="https://media.ed.edmunds-media.com/toyota/camry/2016/ot/2016_toyota_camry_LIFE1_ot_902163_1280.jpg"
+                alt="toyota">
+            <img width="25px" src="add-to-online-cart.svg" alt="add-to-online-cart" class="basket">
+            Toyota
+        </div>
+        <div class="card">
+            <img class="card"
+                src="https://media.ed.edmunds-media.com/bmw/x6/2016/oem/2016_bmw_x6_4dr-suv_xdrive50i_fq_oem_5_1280.jpg"
+                alt="bmw">
+            <img width="25px" src="add-to-online-cart.svg" alt="add-to-online-cart" class="basket">
+            BMW
+        </div>
+        <div class="card">
+            <img class="card" src="https://s.auto.drom.ru/i24207/c/photos/fullsize/daewoo/nexia/daewoo_nexia_695410.jpg"
+                alt="daewoo">
+            <img width="25px" src="add-to-online-cart.svg" alt="add-to-online-cart" class="basket">
+            Daewoo
+        </div> -->
+    </div>
+</body>
+
+</html>
