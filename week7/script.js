@@ -1,5 +1,9 @@
-function mark(i) {
-    document.querySelector(`div:nth-child(${i}) span`).style.textDecoration =
-        (document.querySelector(`div:nth-child(${i}) span`).style.textDecoration != "line-through") ?
-        "line-through" : "";
+function mark() {
+    for (let button of document.getElementsByTagName("button")) {
+        button.onclick = function () {
+            let span = this.parentElement.getElementsByTagName("span")[0];
+            span.style.textDecoration = span.style.textDecoration == "line-through" ? "" : "line-through";
+        }
+    }
 }
+mark();

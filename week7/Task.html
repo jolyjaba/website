@@ -1,16 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        div[data-status='done'] span {
+            text-decoration: line-through;
+        }
+    </style>
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <div><button onclick="mark(1)">Finish</button><span>Finish web tasks</span></div>
-    <div><button onclick="mark(2)">Finish</button><span>Go to gym</span></div>
-    <div><button onclick="mark(3)">Finish</button><span>Clean home</span></div>
-    <div><button onclick="mark(4)">Finish</button><span>Seart project</span></div>
-    <div><button onclick="mark(5)">Finish</button><span>Prepare to calculus</span></div>
-    <script src="script.js"></script>
+    <div id="tasks">
+        <div><button>Finish</button><span>Finish web tasks</span></div>
+        <div><button>Finish</button><span>Go to gym</span></div>
+        <div><button>Finish</button><span>Clean home</span></div>
+        <div><button>Finish</button><span>Start project</span></div>
+        <div><button>Finish</button><span>Prepare to calculus</span></div>
+    </div>
 </body>
+
 </html>
