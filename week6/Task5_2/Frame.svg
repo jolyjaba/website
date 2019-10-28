@@ -1,0 +1,17 @@
+<svg id="Button" xmlns="http://www.w3.org/2000/svg" width="501" height="42" viewBox="0 0 501 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5d38db;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 14px;
+        font-family: Helvetica;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-1" width="501" height="42" rx="2"/>
+  <text id="Send" class="cls-2" transform="translate(250.075 27)"><tspan x="-64.193" y="0">Save Frame settings</tspan></text>
+</svg>

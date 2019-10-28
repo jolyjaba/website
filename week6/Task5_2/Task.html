@@ -11,11 +11,44 @@
 <body>
     <div id="container">
         <div id="left_side">
-
+            <div id="navigation">
+                <span id="tools">Tools</span>
+                <span id="frame_prop">Frame Properties</span>
+            </div>
+            <div id="fill">
+                <div class="fill"><span>Position X</span><input type="text" name="position-x" id="position-x"></div>
+                <div class="fill"><span>Position Y</span><input type="text" name="position-y" id="position-y"></div>
+                <div class="fill"><span>Position Type</span><input placeholder="Absolute | Realtive | Fixed"
+                        type="text" name="position-type" id="position-type"></div>
+                <div class="fill">
+                    <span id="object-text">Object</span>
+                    <select name="object" id="object">
+                        <option value="tree">Tree</option>
+                        <option value="house">House</option>
+                        <option value="grass">Grass</option>
+                    </select>
+                </div>
+                <div class="fill">
+                    <span id="descrip">Here you can add own css proporties as you wish!</span>
+                    <input type="text" name="css-prop" id="css-prop">
+                </div>
+                <img id="add_object" src="Button.svg" alt="Button">
+            </div>
+            <div id="frame">
+                <div class="frame"><span>Background</span><input type="text" name="Background" id="Background"></div>
+                <div class="frame"><span>Border radius</span><input type="text" name="Border" id="Border"></div>
+                <div class="frame"><span>Width</span><input type="text" name="Width" id="Width"></div>
+                <div class="frame"><span>Height</span><input type="text" name="Height" id="Height"></div>
+                <div class="frame">
+                    <span id="descrip">Here you can add own css proporties as you wish!</span>
+                    <input type="text" name="css-prop" id="css-border">
+                </div>
+                <img id="save_frame" src="Frame.svg" alt="Frame">
+            </div>
         </div>
         <div id="rigth_side">
-            <div id="frame">
-                
+            <div id="Frame">
+                <span>This is frame</span>
             </div>
         </div>
     </div>

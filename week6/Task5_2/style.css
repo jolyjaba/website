@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Helvetica;
 }
 
 #container {
@@ -22,6 +23,172 @@
     padding: 40px;
 }
 
+#Frame {
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: relative;
+}
+
+#Frame span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #686868;
+    opacity: 0.25;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+#navigation {
+    display: flex;
+    width: 100%;
+    height: 68.8px;
+    justify-content: space-evenly;
+    color: #707070;
+    font-size: 20px;
+    border-bottom: 1px solid #CED3E6;
+}
+
+#tools,
+#frame_prop {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+#tools:hover,
+#frame_prop:hover {
+    border-bottom: 5px solid #8954BA;
+}
+
+#fill {
+    display: block;
+    position: relative;
+    padding-top: 47.2px;
+    padding-left: 41px;
+    padding-right: 28.5px;
+}
+
+#position-x,
+#position-y,
+#position-type {
+    position: absolute;
+    height: 20px;
+    width: 250px;
+    right: 28.5px;
+    outline: none;
+}
+
+#descrip {
+    font-size: 10px;
+}
+
+.fill:nth-child(5) input{
+    position: absolute;
+    top: 210px;
+}
+
+#object {
+    position: absolute;
+    right: 28.5px;
+    width: 250px;
+}
+
+#object-text {
+    color: #686868;
+    font-size: 18px;
+}
+
+.fill,
+#object,
+#css-prop {
+    font-size: 18px;
+    height: 20px;
+    margin-bottom: 13px;
+    outline: none;
+}
+
+#css-prop {
+    position: absolute;
+    width: 250px;
+    right: 28.5px;
+}
+
+#fill img {
+    margin-top: 25px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.fill span {
+    color: #686868;
+    font-size: 18px;
+}
+
 #frame {
-    
+    display: none;
+    position: relative;
+    padding-top: 47.2px;
+    padding-left: 41px;
+    padding-right: 28.5px;
+}
+
+#Background,
+#Border,
+#Width,
+#Height {
+    position: absolute;
+    height: 20px;
+    width: 250px;
+    right: 28.5px;
+    outline: none;
+}
+
+#descrip {
+    font-size: 10px;
+}
+
+.frame:nth-child(5) input{
+    position: absolute;
+    top: 210px;
+}
+
+#object {
+    position: absolute;
+    right: 28.5px;
+    width: 250px;
+}
+
+#object-text {
+    color: #686868;
+    font-size: 18px;
+}
+
+.frame,
+#css-border {
+    font-size: 18px;
+    margin-bottom: 13px;
+    height: 20px;
+    outline: none;
+}
+
+#css-border {
+    position: absolute;
+    width: 250px;
+    right: 28.5px;
+}
+
+#frame img {
+    margin-top: 25px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.frame span {
+    color: #686868;
+    font-size: 18px;
 }
