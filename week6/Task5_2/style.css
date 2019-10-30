@@ -28,6 +28,7 @@
     height: 100%;
     background: white;
     position: relative;
+    overflow: auto;
 }
 
 #Frame span {
@@ -53,16 +54,20 @@
 
 #tools,
 #frame_prop {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 45px;
     padding-left: 40px;
     padding-right: 40px;
     cursor: pointer;
 }
 
+#tools {
+    border-bottom: 5px solid #8954BA;
+}
+
 #tools:hover,
 #frame_prop:hover {
-    border-bottom: 5px solid #8954BA;
+    background: #F6F7FA;
 }
 
 #fill {
