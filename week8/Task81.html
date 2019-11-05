@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <style>
+        #news {
+            border: 1px solid red;
+            width: 400px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="news"></div>
+    <button id="sport">Load Sport news</button>
+    <button id="politics">Load Politics news</button>
+    <button id="bussiness">Load Bussiness news</button>
+
+
+    <script>
+        let newsBoard = document.getElementById("news");
+        document.getElementById("sport").onclick = function () {
+            while (newsBoard.hasChildNodes()) {
+                newsBoard.removeChild(newsBoard.childNodes[0]);
+            }
+            let sportNewsTitle = document.createElement("h1"),
+                sportNewsDes = document.createElement("h3");
+            sportNewsDes.innerHTML = "Something about sport";
+            sportNewsTitle.innerHTML = "News about Sport";
+            newsBoard.appendChild(sportNewsTitle);
+            newsBoard.appendChild(sportNewsDes);
+        }
+        document.getElementById("politics").onclick = function () {
+            while (newsBoard.hasChildNodes()) {
+                newsBoard.removeChild(newsBoard.childNodes[0]);
+            }
+            let sportNewsTitle = document.createElement("h1"),
+                sportNewsDes = document.createElement("h3");
+            sportNewsDes.innerHTML = "Something about politics";
+            sportNewsTitle.innerHTML = "News about Politics";
+            newsBoard.appendChild(sportNewsTitle);
+            newsBoard.appendChild(sportNewsDes);
+        }
+        document.getElementById("bussiness").onclick = function () {
+            while (newsBoard.hasChildNodes()) {
+                newsBoard.removeChild(newsBoard.childNodes[0]);
+            }
+            let sportNewsTitle = document.createElement("h1"),
+                sportNewsDes = document.createElement("h3");
+            sportNewsDes.innerHTML = "Something about bussiness";
+            sportNewsTitle.innerHTML = "News about Bussiness";
+            newsBoard.appendChild(sportNewsTitle);
+            newsBoard.appendChild(sportNewsDes);
+        }
+    </script>
+</body>
+
+</html>
