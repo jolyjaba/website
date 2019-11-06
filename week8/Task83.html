@@ -51,6 +51,46 @@
             sortByMaker = document.getElementById("sortByMaker"),
             sortByPrice = document.getElementById("sortByPrice");
         sortByMaker.onclick = function () {
+            var card, switching, i, x, y, shouldSwitch;
+            switching = true;
+            while (switching) {
+                switching = false;
+                card = cards.getElementsByClassName("card");
+                for (i = 0; i < (card.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = card[i].querySelector(".title");
+                    y = card[i + 1].querySelector(".title");
+                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+                if (shouldSwitch) {
+                    card[i].parentNode.insertBefore(card[i + 1], card[i]);
+                    switching = true;
+                }
+            }
+        }
+        sortByPrice.onclick = function () {
+            var card, switching, i, x, y, shouldSwitch;
+            switching = true;
+            while (switching) {
+                switching = false;
+                card = cards.getElementsByClassName("card");
+                for (i = 0; i < (card.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = card[i].querySelector(".price");
+                    y = card[i + 1].querySelector(".price");
+                    if (x.innerHTML < y.innerHTML) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+                if (shouldSwitch) {
+                    card[i].parentNode.insertBefore(card[i + 1], card[i]);
+                    switching = true;
+                }
+            }
         }
         button.onclick = function () {
             while (cards.childNodes.length) {
@@ -63,7 +103,7 @@
                 function frame() {
                     if (pos == 100) {
                         clearInterval(id);
-                        loading.style.display = "none";
+                        cards.removeChild(cards.firstChild);
                         button.innerHTML = "Items are loaded";
                         createCard("Toyota Camry 50", 50000);
                         createCard("Toyota Carina", 40000);

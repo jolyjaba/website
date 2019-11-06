@@ -12,7 +12,7 @@ button.onclick = function () {
         function frame() {
             if (pos == 100) {
                 clearInterval(id);
-                loading.style.display = "none";
+                cards.removeChild(cards.firstChild);
                 button.innerHTML = "Items are loaded";
                 createCard("Toyota Camry 50", 50000);
                 createCard("Toyota Carina", 40000);
