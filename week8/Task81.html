@@ -19,15 +19,19 @@
 
 
     <script>
+        let database;
         let newsBoard = document.getElementById("news");
+        fetch("Task81.json")
+            .then(response => response.json())
+            .then(commits => database = commits);
         document.getElementById("sport").onclick = function () {
             while (newsBoard.hasChildNodes()) {
                 newsBoard.removeChild(newsBoard.childNodes[0]);
             }
             let sportNewsTitle = document.createElement("h1"),
                 sportNewsDes = document.createElement("h3");
-            sportNewsDes.innerHTML = "Something about sport";
-            sportNewsTitle.innerHTML = "News about Sport";
+            sportNewsDes.innerHTML = database[0].description;
+            sportNewsTitle.innerHTML = database[0].title;
             newsBoard.appendChild(sportNewsTitle);
             newsBoard.appendChild(sportNewsDes);
         }
@@ -37,8 +41,8 @@
             }
             let sportNewsTitle = document.createElement("h1"),
                 sportNewsDes = document.createElement("h3");
-            sportNewsDes.innerHTML = "Something about politics";
-            sportNewsTitle.innerHTML = "News about Politics";
+            sportNewsDes.innerHTML = database[1].description;
+            sportNewsTitle.innerHTML = database[1].title;
             newsBoard.appendChild(sportNewsTitle);
             newsBoard.appendChild(sportNewsDes);
         }
@@ -48,8 +52,8 @@
             }
             let sportNewsTitle = document.createElement("h1"),
                 sportNewsDes = document.createElement("h3");
-            sportNewsDes.innerHTML = "Something about bussiness";
-            sportNewsTitle.innerHTML = "News about Bussiness";
+            sportNewsDes.innerHTML = database[2].description;
+            sportNewsTitle.innerHTML = database[2].title;
             newsBoard.appendChild(sportNewsTitle);
             newsBoard.appendChild(sportNewsDes);
         }

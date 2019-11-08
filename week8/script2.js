@@ -1,7 +1,11 @@
 let cards = document.getElementById("cards"),
     loading = document.getElementById("loading"),
-    button = document.querySelector("button");
+    button = document.querySelector("button"),
+    database;
 button.onclick = function () {
+    fetch("Task82.json")
+        .then(response => response.json())
+        .then(commits => database = commits);
     while (cards.childNodes.length) {
         cards.removeChild(cards.lastChild);
     }
@@ -9,15 +13,15 @@ button.onclick = function () {
         cards.appendChild(loading);
         let pos = 0;
         let id = setInterval(frame, 0);
+
         function frame() {
             if (pos == 100) {
                 clearInterval(id);
                 cards.removeChild(cards.firstChild);
                 button.innerHTML = "Items are loaded";
-                createCard("Toyota Camry 50", 50000);
-                createCard("Toyota Carina", 40000);
-                createCard("Volkswagen Tuareg", 35000);
-                createCard("Mercedes C100", 45000);
+                database.forEach(element => {
+                    createCard(element.model, element.price);
+                });
             } else {
                 pos++;
                 loading.style.display = "block";

@@ -1,0 +1,13 @@
+[{
+    "model": "Toyota Camry 50",
+    "price": 50000
+}, {
+    "model": "Toyota Carina",
+    "price": 40000
+}, {
+    "model": "Volkswagen Tuareg",
+    "price": 35000
+}, {
+    "model": "Mercedes C100",
+    "price": 45000
+}]

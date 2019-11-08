@@ -49,7 +49,11 @@
             loading = document.getElementById("loading"),
             button = document.querySelector("button"),
             sortByMaker = document.getElementById("sortByMaker"),
-            sortByPrice = document.getElementById("sortByPrice");
+            sortByPrice = document.getElementById("sortByPrice"),
+            database;
+        fetch("Task82.json")
+            .then(response => response.json())
+            .then(commits => database = commits);
         sortByMaker.onclick = function () {
             var card, switching, i, x, y, shouldSwitch;
             switching = true;
@@ -105,10 +109,9 @@
                         clearInterval(id);
                         cards.removeChild(cards.firstChild);
                         button.innerHTML = "Items are loaded";
-                        createCard("Toyota Camry 50", 50000);
-                        createCard("Toyota Carina", 40000);
-                        createCard("Volkswagen Tuareg", 35000);
-                        createCard("Mercedes C100", 45000);
+                        database.forEach(element => {
+                            createCard(element.model, element.price);
+                        });
                     } else {
                         pos++;
                         loading.style.display = "block";
