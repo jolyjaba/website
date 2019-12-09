@@ -1,0 +1,28 @@
+{
+    "BMW": [{
+        "model": "BMW X5",
+        "price": "17.000",
+        "year": 10
+    }, {
+        "model": "BMW X5",
+        "price": "19.000",
+        "year": 2
+    }, {
+        "model": "BMW Model 7",
+        "price": "22.000",
+        "year": 3
+    }],
+    "Toyota": [{
+        "model": "Toyota Camry",
+        "price": "20.000",
+        "year": 8
+    }, {
+        "model": "Toyota Land Cruiser",
+        "price": "18.000",
+        "year": 5
+    }, {
+        "model": "Toyota 50",
+        "price": "19.000",
+        "year": 2
+    }]
+}
